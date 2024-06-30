@@ -16,6 +16,7 @@ I'm working at the moment. I study __Frontend__ on weekends. The goal is to beco
 * HTML
 * CSS
 * Bootstrap
+* Fancybox
 
 ## Code Example
 `alert( 'Привет, мир!' );`
