@@ -28,5 +28,6 @@ At the moment, there is no experience.
 MGMPTC - Mogilev State Engineering College
 
 ## Languages
+* Belarus - Native
 * Russian - Native
 * English - I plan to study in the future
