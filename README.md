@@ -1,2 +1,2 @@
 # rsschool-cv
-https://greatestsage.github.io/rsschool-cv/cv
+## https://greatestsage.github.io/rsschool-cv
