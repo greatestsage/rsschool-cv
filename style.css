@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+    --color-amethyst: #9966cc;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(assets/img/fon.jpg);
+}
+
+header,
+footer {
+    width: 100%;
+    background-color: white;
+}
+
+section {
+    padding: 25px 0;
+}
+
+main>section>.container {
+    padding: 25px 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 26px;
+    padding: 25px 0;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    background-color: white;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    line-height: 75px;
+    transition: 0.3s;
+}
+
+.nav-item {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-item a:hover {
+    color: var(--color-amethyst);
+}
+
+.profile {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 26px;
+}
+
+.title>p {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.front__fon {
+    color: var(--color-amethyst);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#about .front__fon {
+    font-size: 16px;
+}
+
+.contacts_list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.contacts_list li {
+    padding-top: 15px;
+}
+
+.contacts_list li a {
+    font-weight: bold;
+    color: var(--color-amethyst);
+}
+
+.about__me {
+    text-align: center;
+    padding: 0 65px;
+}
+
+pre {
+    padding: 20px 0;
+    background-color: cornsilk;
+}
+
+.skills__list,
+.languages__list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+figcaption {
+    text-align: center;
+    font-weight: 500;
+}
+
+.projects__item {
+    text-align: center;
+    font-size: 18px;
+}
+
+.footer_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
