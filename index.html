@@ -6,12 +6,170 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/img/icon.ico">
 
-    <title>Document</title>
+    <title>CV</title>
 </head>
 
 <body>
-    <h1>Первый тэг</h1>
+    <header class="header">
+        <div class="container">
+            <div class="header-items">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+                        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main-container">
+        <section id="profile">
+            <div class="container">
+                <div class="profile">
+                    <div class="foto">
+                        <img src="assets/img/avatar.jpg" alt="I am">
+                    </div>
+                    <div class="title">
+                        <h1>Vitali Khadziankou</h1>
+                        <p>Front-End <span class="front__fon">Developer</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contacts">
+            <div class="container">
+                <h2>Contact me</h2>
+                <ul class="contacts_list">
+                    <li class="contacts_info">
+                        Phone:
+                        <a href="tel:+375339013094">+375 (33) 901-30-94</a>
+                    </li>
+                    <li class="contacts_info">
+                        E-mail:
+                        <a href="mailto:it_programmer_it@mail.ru">it_programmer_it@mail.ru</a>
+                    </li>
+                    <li class="contacts_info">
+                        Telegram:
+                        <a href="tg://resolve?domain=@Grea_tSage">@Grea_tSage</a>
+                    </li>
+                    <li class="contacts_info">
+                        VK:
+                        <a href="https://vk.com/great_s_a_g_e">Vitali Khadziankou</a>
+                    </li>
+                    <li class="contacts_info">
+                        GitHub:
+                        <a href="https://github.com/greatestsage">Greatestsage</a>
+                    </li>
+                    <li class="contacts_info">
+                        Location:
+                        <a
+                            href="https://yandex.by/maps/geo/53176783/?ll=30.350148%2C53.881504&utm_source=ntp_chrome&z=12.22">Mogilev,
+                            Belarus</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <h2>About me</h2>
+                <p class="about__me">Hello everyone, I'll tell you a little bit about myself. At the moment I am working
+                    as a loader, I
+                    strive to become a programmer, because this is my cherished dream. I am self-taught myself, it is
+                    always interesting to learn something new. At the moment, I am striving to become a <span
+                        class="front__fon">Frontend
+                        developer</span>, then I will strive to become a <span class="front__fon">Full-stack
+                        developer</span>.</p>
+            </div>
+        </section>
+        <section id="code">
+            <div class="container">
+                <h2>Code Example:</h2>
+                <pre>
+                    <code>function understands_video() {
+                        return !!document.createElement('video').canPlayType; // boolean
+                        }
+                        
+                        if ( !understands_video() ) {
+                        videoControls.style.display = 'none';
+                        }</code>
+                </pre>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <ul class="skills__list">
+                    <li><img src="assets/icons-html.svg" alt="html">
+                        <figcaption>HTML</figcaption>
+                    </li>
+                    <li><img src="assets/icons-css.svg" alt="css">
+                        <figcaption>CSS</figcaption>
+                    </li>
+                    <li><img src="assets/icons-bootstrap.svg" alt="bootstrap">
+                        <figcaption>BOOTSTRAP</figcaption>
+                    </li>
+                    <li><img src="assets/icons-visual-studio-code.svg" alt="VSCode">
+                        <figcaption>VS Code</figcaption>
+                    </li>
+                    <li><img src="assets/icons-git.svg" alt="git">
+                        <figcaption>GIT</figcaption>
+                    </li>
+                    <li><img src="assets/icons-js.svg" alt="JS">
+                        <figcaption>JavaScript</figcaption>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects__item"><a href="https://greatestsage.github.io/rsschool-cv/">My CV Project</a>
+                </div>
+            </div>
+        </section>
+        <section id="education">
+            <div class="container">
+                <h2>Education</h2>
+                <p class="about__me">MGMPTC - Mogilev State Engineering College</p>
+            </div>
+        </section>
+        <section id="languages">
+            <div class="container">
+                <h2>Languages</h2>
+                <ul class="languages__list">
+                    <li><img src="assets/flag-ru.svg" alt="RU">
+                        <figcaption>Russian - Native</figcaption>
+                    </li>
+                    <li><img src="assets/flag-us.svg" alt="US">
+                        <figcaption>English - A1</figcaption>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer_list">
+                <li><a href="https://github.com/greatestsage">
+                        <img src="assets/icons2-git.svg" alt="GIT">
+                    </a></li>
+                <li>© 2024</li>
+                <li>
+                    <a href="https://rs.school/courses/javascript-preschool-ru">
+                        <img src="assets/img/rsschool.svg" alt="rs_school">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
